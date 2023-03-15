@@ -30,9 +30,9 @@
 
 ### 1.4 项目截图
 
-![image-20210103140118353](/Users/dzy/Library/Application Support/typora-user-images/image-20210103140118353.png)
+![image-20210103140118353](README.assets/image-20210103140118353.png)
 
-![image-20210103140126355](/Users/dzy/Library/Application Support/typora-user-images/image-20210103140126355.png)
+![image-20210103140126355](README.assets/image-20210103140126355.png)
 
 
 
@@ -42,7 +42,7 @@
 
 在游戏过程中，游戏循环会连续运行。每次循环，它都会处理用户输入而不会阻塞，更新游戏状态并渲染游戏。它随着时间控制游戏。SceneKit允许在框架中的多个时间通过设置委托并实现相关方法来进行挂接。
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20210103214130943.png" alt="image-20210103214130943" style="zoom:50%;" />
+<img src="README.assets/image-20210103214130943.png" alt="image-20210103214130943" style="zoom:50%;" />
 
 #### 2.1.1 游戏状态
 
@@ -333,7 +333,7 @@ func physicsWorld(_ world: SCNPhysicsWorld, didBegin contact: SCNPhysicsContact)
 	_collissionNode!.physicsBody!.contactTestBitMask = Game.Physics.Categories.ring | Game.Physics.Categories.enemy
 ```
 
-![image-20210103225710687](/Users/dzy/Library/Application Support/typora-user-images/image-20210103225710687.png)
+![image-20210103225710687](README.assets/image-20210103225710687.png)
 
 #### 2.3.6 调用collision()
 
